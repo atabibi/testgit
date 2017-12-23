@@ -1,4 +1,5 @@
-﻿var path = require('path');
+﻿/// <binding AfterBuild='Run - Production' />
+var path = require('path');
 var webpack = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var extractCSS = new ExtractTextPlugin('allstyles.css');
