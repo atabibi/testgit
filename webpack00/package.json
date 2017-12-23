@@ -1,0 +1,33 @@
+{
+  "name": "webpack00",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --config webpack.config.js --watch --progress --profile",
+    "build": "webpack --config webpack.config.js --progress --profile",
+    "prod": "webpack --env.NODE_ENV=production --config webpack.config.js --progress"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "npm": "^5.6.0",
+    "popper": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/knockout": "^3.4.47",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.6",
+    "knockout": "^3.4.2",
+    "style-loader": "^0.19.1",
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "uglifyjs-webpack-plugin": "^1.1.4",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0"
+  }
+}
